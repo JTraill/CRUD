@@ -1,16 +1,49 @@
 {
-    "products": [
-        {
-            "name": "t-shirt",
-            "color": "red"
-        },
-        {
-            "name": "pants",
-            "color": "blue"
-        },
-        {
-            "name": "socks",
-            "color": "yellow"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "t-shirt",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "name": "pants",
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "name": "socks",
+      "color": "yellow"
+    },
+    {
+      "name": "Hat",
+      "color": "White",
+      "id": 4
+    },
+    {
+      "name": "coat",
+      "color": "red",
+      "id": 5
+    },
+    {
+      "name": "Coat",
+      "color": "White",
+      "id": 7
+    },
+    {
+      "name": "Shoes",
+      "color": "Black",
+      "id": 8
+    },
+    {
+      "name": "Shoes",
+      "color": "Brown",
+      "id": 9
+    },
+    {
+      "name": "Lucky Red Hat",
+      "color": "Red",
+      "id": 10
+    }
+  ]
 }

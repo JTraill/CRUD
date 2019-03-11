@@ -8,6 +8,7 @@ import { HttpModule } from '@angular/http';
 import { Component, OnInit } from '@angular/core';
 import {Http, Response, Headers} from '@angular/http';
 import { ProductComponent } from './product/product.component';
+import { FormsModule }   from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ProductComponent } from './product/product.component';
     ProductComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     HttpModule,
     RouterModule.forRoot([
